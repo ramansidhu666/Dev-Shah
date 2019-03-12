@@ -112,17 +112,17 @@ namespace Property
             {
 
                 html.AppendLine("<div id='divEmail' style='width:100%; float:left;'>");
-                html.AppendLine("<h2 style='font-weight:bold; font-size:16px;'>Dev Shah for Property ID  " + dt.Rows[0]["MLS"].ToString() + ";</h2>");
+                html.AppendLine("<h2 style='font-weight:bold; font-size:16px;'>Jag & Ken for Property ID  " + dt.Rows[0]["MLS"].ToString() + ";</h2>");
                 html.AppendLine("<h2 style='font-weight: bold; font-size: 16px;'>Message Received From:</h2>");
-                html.AppendLine("<p style='float: left; margin: 0 40px 0 0;'>Phone Number:</p><span style='float:left;'>647-641-7260</span><br/>");
+                html.AppendLine("<p style='float: left; margin: 0 40px 0 0;'>Phone Number:</p><span style='float:left;'>647-618-0365 ,  647-773-5733</span><br/>");
                 html.AppendLine("<h2 style='font-weight: bold; font-size: 16px;'>Message:</h2>");
                 html.AppendLine("<p>Please take a look at Property ID# " + dt.Rows[0]["MLS"].ToString() + " located at " + dt.Rows[0]["Address"].ToString() + "</p>");
                 html.AppendLine("<h2 style='font-weight:bold; font-size:16px;'>Referring Page:</h2>");
-                html.AppendLine("<p>http://realtordevshah.com///</p>");
+                html.AppendLine("<p>http://jagkenhomes.com///</p>");
                 html.AppendLine("<h2 style='font-weight:bold; font-size:16px;'>Property Information:</h2>");
                 html.AppendLine("<div style='float:left; width:30%;'>");
                 html.AppendLine("<h2 style='font-weight:bold; font-size:13px; margin:0px;'>" + dt.Rows[0]["ListPrice"].ToString() + "<br />");
-                //html.AppendLine("821 Bovaird Dr unit 31, Brampton, L6X0T9<br/>Property ID: " + dt.Rows[0]["MLS"].ToString() + "</h2>");
+                //html.AppendLine("Unit 3-2896 Slough St , Mississauga, Ontario, L4T 1G3<br/>Property ID: " + dt.Rows[0]["MLS"].ToString() + "</h2>");
                 html.AppendLine("</div>");
                 html.AppendLine("<div style='float:left;'>");
                 html.AppendLine("<p style='float:left; margin:0 12px 0 0; font-weight:bold;'>Beds:</p><span style='float:left; margin:0 30px 0 0;'>" + dt.Rows[0]["BedRooms"].ToString() + "</span>");
@@ -141,16 +141,16 @@ namespace Property
                 html.AppendLine("<p style='float:left; margin:0 40px 0 0; font-size:12px;'>Property ID:</p><span style='float:left; font-size:12px;'>" + dt.Rows[0]["MLS"].ToString() + "</span><br/></div>");
                 html.AppendLine("<p style='float:left; width:100%;'>ELEGANT EXECUTIVE GREENPARK HOME IN PRESTIGIOUS ROUGE FAIRWAYS</p>");
                 html.AppendLine("" + dt.Rows[0]["RemarksForClients"].ToString() + "");
-                html.AppendLine("<p>For more information visit <a href='#'>http://realtordevshah.com//</a> </p></div>");
+                html.AppendLine("<p>For more information visit <a href='#'>http://jagkenhomes.com//</a> </p></div>");
                 html.AppendLine("<div style='float:left; padding-left:12px;'>");
-                html.AppendLine("<p style='margin:0px;'>Listed By</p><br/><p>Dev Shah<br/>Broker</p>");
+                html.AppendLine("<p style='margin:0px;'>Listed By</p><br/><p>Jag & Ken<br/>Broker</p>");
                 //html.AppendLine(" <h2 style='font-size:16px;'>Leading Edge Realty Inc.</h2>");
                 //html.AppendLine("<p style='margin:0px;'>2250 BOVAIRD DRIVE EAST UNIT # 502 BRAMPTON ON L6R 0W3 </p>");
-                html.AppendLine("<p style='float:left; margin:0 40px 0 0; font-weight:bold;'>Cell::</p><span style='float:left;'>647-641-7260</span><br/>'");
+                html.AppendLine("<p style='float:left; margin:0 40px 0 0; font-weight:bold;'>Cell::</p><span style='float:left;'>647-618-0365 ,  647-773-5733</span><br/>'");
                 //html.AppendLine("<p style='float:left; margin:0 40px 0 0; font-weight:bold;'>Office:</p><span style='float:left;'>905-497-2300</span><br/>");
                 //html.AppendLine("<p style='float:left; margin:0 40px 0 0; font-weight:bold;'>Office Fax:</p><span style='float:left;'>905-497-0400</span><br/>'");
                 html.AppendLine("<p style='float:left; margin:0 40px 0 0; font-weight:bold;'>E-mail:</p><span style='float:left;'>mail</span><br/>");
-                html.AppendLine("<p style='float:left; margin:0 40px 0 0; font-weight:bold;'>Website:</p><span style='float:left;'>>http://realtordevshah.com///</span><br/></div></div>");
+                html.AppendLine("<p style='float:left; margin:0 40px 0 0; font-weight:bold;'>Website:</p><span style='float:left;'>>http://jagkenhomes.com///</span><br/></div></div>");
                 html.AppendLine("<div style='float:left; width:100%;'>");
                 html.AppendLine("<div style='float:left; margin:0 0 0 250px; border-right:1px solid grey; padding-right:7px; width:400px; border-top:1px solid grey;>");
                 html.AppendLine("<h2 style='font-size:16px;'>Property Details</h2>");

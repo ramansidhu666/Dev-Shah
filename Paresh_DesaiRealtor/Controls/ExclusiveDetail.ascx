@@ -368,8 +368,8 @@
                     </div>
                     <div class="roco_pro_info">
                         <h2 style="font-size: 19px !important">
-                            <asp:Label ID="lblname" runat="server"></asp:Label>Dev Shah</h2>
-                        <p>Broker</p>
+                            <asp:Label ID="lblname" runat="server"></asp:Label>Jag & Ken</h2>
+                        <p>Sales Representative</p>
                         <asp:Label CssClass="email_profile_r" ID="lblemail" runat="server"></asp:Label>
                         <asp:Label CssClass="email_profile_r" ID="lblmobile" runat="server"></asp:Label>
                     </div>

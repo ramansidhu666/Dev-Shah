@@ -153,7 +153,7 @@ namespace Property.Controls
                 if (dt.Rows.Count > 0)
                 {
                     lblemail.Text = Convert.ToString(dt.Rows[0]["Email"]);
-                    lblname.Text = Convert.ToString(dt1.Rows[0]["Firstname"]) + " " + Convert.ToString(dt1.Rows[0]["LastName"]);
+                    //lblname.Text = Convert.ToString(dt1.Rows[0]["Firstname"]) + " " + Convert.ToString(dt1.Rows[0]["LastName"]);
                     lblmobile.Text = Convert.ToString(dt.Rows[0]["Mobile"]);
                 }
             }
@@ -510,7 +510,7 @@ namespace Property.Controls
 
             mail.To.Add(ToEmailID);
             mail.From = new MailAddress(FromEmailID);
-            mail.Subject = "Dev Shah";
+            mail.Subject = "Jag & Ken";
             string body = "";
             body = "<p>Thanks for contacting us.</p>";
             mail.Body = body;

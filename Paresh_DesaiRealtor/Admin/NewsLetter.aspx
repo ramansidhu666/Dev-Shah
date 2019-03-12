@@ -1504,17 +1504,17 @@ function previewfunction(content) {
 
                                 <asp:TextBox ID="FirstContent" onkeyDown="checkTextAreaMaxLength(this,event,'30');" Style="float: left; width: 100%; font-size: 26px; padding: 5px 0 0; font-family: Arial, Helvetica, sans-serif; font-weight: bold; color: #55518a; margin-top: 6px; height: 31px;" runat="server" TextMode="MultiLine" PlaceHolder="Description here..." class="span8">Tittle of the Newsletter Section </asp:TextBox>
                                 <div style="float: left; width: 100%; margin: 12px 0 0;">
-                                    <h2 style="float: left; width: 100%; font-size: 18px; font-family: Arial, Helvetica, sans-serif; color: #FFF; margin: 0px;">Dev Shah</h2>
-                                    <p style="float: left; width: 100%; font-size: 16px; font-family: Arial, Helvetica, sans-serif; color: #c48820; margin: 5px 0 2px 0;">HomeLife/Miracle Realty Ltd., Brokerage*</p>
+                                    <h2 style="float: left; width: 100%; font-size: 18px; font-family: Arial, Helvetica, sans-serif; color: #FFF; margin: 0px;">Jag & Ken</h2>
+                                    <p style="float: left; width: 100%; font-size: 16px; font-family: Arial, Helvetica, sans-serif; color: #c48820; margin: 5px 0 2px 0;">Royal Canadian Realty, Brokerage*</p>
                                     <p style="float: left; width: 100%; margin: 0">
                                         <span style="float: left; font-size: 15px; color: #c48820;">Phone:</span>
-                                        <span style="float: left; font-size: 14px; color: #FFF; margin: 0 10px 0 4px;">647-641-7260</span>
+                                        <span style="float: left; font-size: 14px; color: #FFF; margin: 0 10px 0 4px;">647-618-0365 ,  647-773-5733</span>
                                         <span style="float: left; font-size: 15px; color: #c48820; margin: 0 6px 0 1px">Email:</span>
-                                        <span style="float: left; font-size: 14px; color: #FFF;">devshah.realtor@gmail.com</span>
+                                        <span style="float: left; font-size: 14px; color: #FFF;">jagkenhomes@gmail.com</span>
                                     </p>
                                     <p style="float: left; width: 100%; margin: 0">
                                         <span style="float: left; font-size: 15px; color: #c48820;">Address:</span>
-                                        <span style="float: left; font-size: 14px; color: #FFF; margin: 0 10px 0 4px;">821 Bovaird Dr unit 31, Brampton, L6X0T9</span>
+                                        <span style="float: left; font-size: 14px; color: #FFF; margin: 0 10px 0 4px;">Unit 3-2896 Slough St , Mississauga, Ontario, L4T 1G3</span>
                                     </p>
                                     <p style="float: left; width: 100%; font-size: 22px; font-family: Arial, Helvetica, sans-serif; color: #c48820; margin: 5px 0 0;">www.reatordevshah.com</p>
                                 </div>

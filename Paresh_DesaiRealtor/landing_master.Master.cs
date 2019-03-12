@@ -34,17 +34,17 @@ namespace Property
             fbProprtyTitle.Content = "";
             fbProprtyUrl.Content = "";
             fbProprtyShareType.Content = "";
-            fbProprtyImage.Content = "http://realtordevshah.com/Images/canada.jpg";
+            fbProprtyImage.Content = "http://jagkenhomes.com/Images/canada.jpg";
             string path = HttpContext.Current.Request.Url.AbsolutePath;
             if (path.ToLower() == "/landing_page.aspx")
             {
-                fbProprtyUrl.Content = "http://realtordevshah.com/landing_page.aspx";
+                fbProprtyUrl.Content = "http://jagkenhomes.com/landing_page.aspx";
                 fbProprtyTitle.Content = "Want to know what your neighbours are selling!";
 
             }
             else if (path.ToLower() == "/home_worth.aspx")
             {
-                fbProprtyUrl.Content = "http://realtordevshah.com/Home_worth.aspx";
+                fbProprtyUrl.Content = "http://jagkenhomes.com/Home_worth.aspx";
                 fbProprtyTitle.Content = "What Is your House Really Worth ?";
 
             }

@@ -366,10 +366,10 @@
                         <img style="border:2px solid gray;" src="images/arshad.png" alt="" title="" />
                     </div>
                     <div style="float: left; width: 33%; margin-top: 20px;">
-                        <h2 style="margin-bottom: 5px; font-family:arial; font-size: 18px;">Dev Shah</h2>
+                        <h2 style="margin-bottom: 5px; font-family:arial; font-size: 18px;">Jag & Ken</h2>
                         <p style="margin-bottom: 5px; font-family:arial;">Broker</p>
-                        <p style="font-weight: bold; margin-bottom: 5px; font-family:arial;">E-Mail:<span style="font-weight: normal; margin: 0 0px 0 6px;">devshah.realtor@gmail.com</span></p>
-                        <p style="font-weight: bold; margin-bottom: 5px; font-family:arial;">Phone:<span style="font-weight: normal; margin: 0 0px 0 6px;">647-641-7260</span></p>
+                        <p style="font-weight: bold; margin-bottom: 5px; font-family:arial;">E-Mail:<span style="font-weight: normal; margin: 0 0px 0 6px;">jagkenhomes@gmail.com</span></p>
+                        <p style="font-weight: bold; margin-bottom: 5px; font-family:arial;">Phone:<span style="font-weight: normal; margin: 0 0px 0 6px;">647-618-0365 ,  647-773-5733</span></p>
                     </div>
                     <div style="float: left; width: 31%; margin-top: 20px;">
                         <img src="images/logo.jpg" alt="" title="" />
@@ -412,7 +412,7 @@
 
                     <label id="lblError" runat="server"></label>
                     <div id="dialog" class="disclaimer_cntnt" style="display:none;">
-                    <p>By entering my contact information i give my express consent to be contacted by 'HomeLife/Miracle Realty Ltd., Brokerage* and or real estate salespeople on bahalf of HomeLife/Miracle Realty Ltd., Brokerage*' to discuss potential services.</p>
+                    <p>By entering my contact information i give my express consent to be contacted by 'Royal Canadian Realty, Brokerage* and or real estate salespeople on bahalf of Royal Canadian Realty, Brokerage*' to discuss potential services.</p>
                 </div>
                 </div>
                 

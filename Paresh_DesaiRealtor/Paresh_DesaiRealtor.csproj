@@ -283,6 +283,8 @@
     <Content Include="Buyers.aspx" />
     <Content Include="BuyingAHouse.aspx" />
     <Content Include="Calculator.aspx" />
+    <Content Include="RentToOwn.aspx" />
+    <Content Include="BuyWithZeroDown.aspx" />
     <Content Include="Calculators.aspx" />
     <Content Include="Change_Password.aspx" />
     <Content Include="ChoosingAMortgageTerm.aspx" />
@@ -1675,6 +1677,20 @@
     </Compile>
     <Compile Include="Calculator.aspx.designer.cs">
       <DependentUpon>Calculator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RentToOwn.aspx.cs">
+      <DependentUpon>RentToOwn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RentToOwn.aspx.designer.cs">
+      <DependentUpon>RentToOwn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BuyWithZeroDown.aspx.cs">
+      <DependentUpon>BuyWithZeroDown.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BuyWithZeroDown.aspx.designer.cs">
+      <DependentUpon>BuyWithZeroDown.aspx</DependentUpon>
     </Compile>
     <Compile Include="Calculators.aspx.cs">
       <DependentUpon>Calculators.aspx</DependentUpon>

@@ -9,6 +9,7 @@ using System.Text;
 using Property_cls;
 using System.Data.SqlClient;
 using System.Configuration;
+using System.Net.Mail;
 
 namespace Property
 {
@@ -32,11 +33,11 @@ namespace Property
                 //GetTestimonials();
             }
         }
-        protected void addre_submit_Click(object sender, EventArgs e)
-        {
-            string s = search.Value;
-            Response.Redirect("~/Review_home_worth.aspx?address=" + search.Value, false);
-        }
+        //protected void addre_submit_Click(object sender, EventArgs e)
+        //{
+        //    string s = search.Value;
+        //    Response.Redirect("~/Review_home_worth.aspx?address=" + search.Value, false);
+        //}
         void GetFeaturedProperties()
         {
             try
@@ -75,7 +76,7 @@ namespace Property
                 StrMenu.Append("<a class='toggleMenu' href='#'></a>");
                 StrMenu.Append("<ul class='nav'>");
                 StrMenu.Append("<li class='test'><a href='../Home.aspx' title='Home' class='active'>Home</a></li>");
-
+                StrMenu.Append("<li style='background:none;'><a href='#' title='Why Sell with us'>Why Sell with us</a></li>");
                 for (int i = 0; i < dt.Rows.Count; i++)
                 {
                     clsobj.PageID = Convert.ToInt32(dt.Rows[i]["ID"]);
@@ -98,19 +99,9 @@ namespace Property
                     }
                 }
 
-                //StrMenu.Append("<li class='test' style='background:none;'><a href='Admin/Adminlogin.aspx' title='Login'>Login</a></li>");
-                StrMenu.Append("<li style='background:none;'><a href='home_worth.aspx' title='Home Evaluation'>Free Home Evaluation</a></li>");
-                StrMenu.Append("<li>");
-                StrMenu.Append("<a href='landing_page.aspx' title='Find your Dream Home'>Find your Dream Home</a>");
-                StrMenu.Append("</li>");
-
-                //StrMenu.Append("<li>");
-                //StrMenu.Append("<a href='../RealEstateNews.aspx' title='Real Estate News'>Real Estate News</a>");
-                //StrMenu.Append("</li>");
-
-                StrMenu.Append("<li style='background:none;'><a href='Calculators.aspx' title='Calculators'>Calculators</a></li>");
+                StrMenu.Append("<li class='test' style='background:none;'><a href='Featured_Properties.aspx' title='Featured Properties'>Featured Properties</a></li>");
+                StrMenu.Append("<li style='background:none;'><a href='View_Testimonials.aspx' title='Testimonials'>Testimonials</a></li>");
                 StrMenu.Append("<li class='test' style='background:none;'><a href='ContactUs.aspx' title='Contact Us'>Contact Us</a></li>");
-                //StrMenu.Append("<li class='test' style='background:none;'><a href='admin/adminlogin.aspx' title='Login'>Login</a></li>");
                 StrMenu.Append("</ul>"); ;
 
 
@@ -151,8 +142,8 @@ namespace Property
                 {
                     lblemailid.Text = Convert.ToString(dt.Rows[0]["Email"]);
                     siteTitle.Text = Convert.ToString(dt.Rows[0]["Title"]);
-                    lblemail.Text = Convert.ToString(dt.Rows[0]["Email"]);
-                    lblmobile2.Text = Convert.ToString(dt.Rows[0]["Mobile"]);
+                    //lblemail.Text = Convert.ToString(dt.Rows[0]["Email"]);
+                    //lblmobile2.Text = Convert.ToString(dt.Rows[0]["Mobile"]);
                     //lblmobile.Text = Convert.ToString(dt.Rows[0]["Mobile"]);
                     //lblfax.Text = Convert.ToString(dt.Rows[0]["Fax"]);
                     //lblemail.Text = Convert.ToString(dt.Rows[0]["Email"]);
@@ -178,6 +169,70 @@ namespace Property
             {
                 throw ex;
             }
+        }
+        protected void btnSend_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                cls_Property clsp = new cls_Property();
+               // clsp.Insert_ContactUS(txtFirstName.Text, txtLastName.Text, txtEmail.Text, txtPhoneno.Text, txtMessage.Text + "<br/>" + HttpContext.Current.Request.Url.AbsoluteUri);
+                //int indextilldel = Request.Url.AbsoluteUri.IndexOf("Posting");
+
+                string UserEmailId = ConfigurationManager.AppSettings["RegFromMailAddress"].ToString();
+                string ToEmailId = ConfigurationManager.AppSettings["ToEmailID"].ToString();
+                SendMailToAdmin(UserEmailId);
+               
+
+                txtFirstName.Text = "";
+                txtLastName.Text = "";
+                txtEmail.Text = "";
+                ScriptManager.RegisterStartupScript(this, this.GetType(), "Congrats!", "alert('Your E-mail has been sent sucessfully to admin - Thank You');", true);
+                return;
+
+            }
+            catch (Exception ex)
+            {
+                ScriptManager.RegisterStartupScript(this, this.GetType(), "Failure", "alert('Your message failed to send, please try again.');", true);
+                return;
+                //If the message failed at some point, let the user know
+                //lblResult.Text = "Your message failed to send, please try again.";
+            }
+        }
+
+        public void SendMailToAdmin(string UserEmailId)
+        {
+
+            MailMessage mail = new MailMessage();
+
+
+            string ToEmailID = ConfigurationManager.AppSettings["ToEmailID"].ToString(); //From Email & To Email are same for admin
+            //string ToEmailPassword = ConfigurationManager.AppSettings["ToEmailPassword"].ToString();
+            string FromEmailID = ConfigurationManager.AppSettings["RegFromMailAddress"].ToString();
+            string FromEmailPassword = ConfigurationManager.AppSettings["RegPassword"].ToString();
+
+
+            string _Host = ConfigurationManager.AppSettings["SmtpServer"].ToString();
+            int _Port = Convert.ToInt32(ConfigurationManager.AppSettings["Port"].ToString());
+            Boolean _UseDefaultCredentials = false;
+            Boolean _EnableSsl = true;
+
+            mail.To.Add(ToEmailID);
+            mail.From = new MailAddress(FromEmailID);
+            mail.Subject = "Free Real Estate Reports";
+            string body = "";
+            body = "<p>Person Name : " + txtFirstName.Text + " " + txtLastName.Text + "</p>";
+            body = body + "<p>Email ID : " + txtEmail.Text + "</p>";
+            mail.Body = body;
+
+            mail.IsBodyHtml = true;
+            SmtpClient smtp = new SmtpClient();
+            smtp.Host = _Host;
+            smtp.Port = _Port;
+            smtp.UseDefaultCredentials = _UseDefaultCredentials;
+            smtp.Credentials = new System.Net.NetworkCredential
+            (FromEmailID, FromEmailPassword);// Enter senders User name and password
+            smtp.EnableSsl = _EnableSsl;
+            smtp.Send(mail);
         }
         protected void bindBnanners()
         {

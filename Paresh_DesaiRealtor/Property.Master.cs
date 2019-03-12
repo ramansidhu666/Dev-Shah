@@ -42,7 +42,7 @@ namespace Property
                 StrMenu.Append("<a class='toggleMenu' href='#'></a>");
                 StrMenu.Append("<ul class='nav'>");
                 StrMenu.Append("<li class='test' style='background:none;'><a href='../Home.aspx' title='Home' >Home</a></li>");
-
+                StrMenu.Append("<li style='background:none;'><a href='#' title='Why Sell with us'>Why Sell with us</a></li>");
                 for (int i = 0; i < dt.Rows.Count; i++)
                 {
                     clsobj.PageID = Convert.ToInt32(dt.Rows[i]["ID"]);
@@ -66,28 +66,9 @@ namespace Property
                         // }
                     }
                 }
-
-                //DataTable exclusive_dt = clsobj.GetExclusiveListing();
-
-                //StrMenu.Append("<li><a href=#>My Listing</a>");//</li>
-                //if (exclusive_dt.Rows.Count > 0)
-                //{
-                //    StrMenu.Append("<ul >");
-
-                //    for (int j = 0; j < exclusive_dt.Rows.Count; j++)
-                //    {
-                //        StrMenu.Append("<li><a href='../ExclusiveDetailPage.aspx?Id=" + exclusive_dt.Rows[j]["Id"] + "' title='Home'>" + exclusive_dt.Rows[j]["Title"] + "</a></li>");
-                //    }
-                //    StrMenu.Append("</ul>");
-                //}
-                StrMenu.Append("<li style='background:none;'><a href='home_worth.aspx' title='Home Evaluation'>Free Home Evaluation</a></li>");
-                StrMenu.Append("<li>");
-                StrMenu.Append("<a href='landing_page.aspx' title='Find your Dream Home'>Find your Dream Home</a>");
-                StrMenu.Append("</li>");
-
-                StrMenu.Append("<li style='background:none;'><a href='Calculators.aspx' title='Calculators'>Calculators</a></li>");
+               StrMenu.Append("<li class='test' style='background:none;'><a href='Featured_Properties.aspx' title='Featured Properties'>Featured Properties</a></li>");
+                StrMenu.Append("<li style='background:none;'><a href='View_Testimonials.aspx' title='Testimonials'>Testimonials</a></li>");
                 StrMenu.Append("<li class='test' style='background:none;'><a href='ContactUs.aspx' title='Contact Us'>Contact Us</a></li>");
-               
                 StrMenu.Append("</ul>");
 
 
@@ -112,11 +93,11 @@ namespace Property
 
                     //lblmobile.Text = Convert.ToString(dt.Rows[0]["Mobile"]);
                     //lblfax.Text = Convert.ToString(dt.Rows[0]["Fax"]);
-                    lblemail.Text = Convert.ToString(dt.Rows[0]["Email"]);
+                    //lblemail.Text = Convert.ToString(dt.Rows[0]["Email"]);
                     //lblBrkrOneName.Text = Convert.ToString(dt1.Rows[0]["FirstName"]) + " " + Convert.ToString(dt1.Rows[0]["LastName"]);
                     //lbladdress.Text = Convert.ToString(dt1.Rows[0]["Address"]);
                     //lblBrkrTwoNme.Text = Convert.ToString(dt.Rows[0]["BrokerTwoName"]);
-                    lblphn.Text = Convert.ToString(dt.Rows[0]["Mobile"]);
+                    //lblphn.Text = Convert.ToString(dt.Rows[0]["Mobile"]);
                     byte[] favimage = (byte[])dt.Rows[0]["Favicon.ico"];
                     if (favimage.Length > 0)
                     {

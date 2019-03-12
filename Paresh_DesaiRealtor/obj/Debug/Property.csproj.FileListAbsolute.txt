@@ -235,11 +235,11 @@ D:\ParamSites\MuhammadArshad\Property\bin\Cls_Property.pdb
 D:\ParamSites\MuhammadArshad\Property\obj\Debug\Property.csprojResolveAssemblyReference.cache
 D:\ParamSites\MuhammadArshad\Property\obj\Debug\Property.dll
 D:\ParamSites\MuhammadArshad\Property\obj\Debug\Property.pdb
-C:\Sites\Paramsites\Dev Shah\Property\bin\Property.dll.config
-C:\Sites\Paramsites\Dev Shah\Property\bin\Property.dll
-C:\Sites\Paramsites\Dev Shah\Property\bin\Property.pdb
-C:\Sites\Paramsites\Dev Shah\Property\bin\Cls_Property.dll
-C:\Sites\Paramsites\Dev Shah\Property\bin\Cls_Property.pdb
-C:\Sites\Paramsites\Dev Shah\Property\obj\Debug\Property.csprojResolveAssemblyReference.cache
-C:\Sites\Paramsites\Dev Shah\Property\obj\Debug\Property.dll
-C:\Sites\Paramsites\Dev Shah\Property\obj\Debug\Property.pdb
+C:\Sites\Paramsites\Jag & Ken\Property\bin\Property.dll.config
+C:\Sites\Paramsites\Jag & Ken\Property\bin\Property.dll
+C:\Sites\Paramsites\Jag & Ken\Property\bin\Property.pdb
+C:\Sites\Paramsites\Jag & Ken\Property\bin\Cls_Property.dll
+C:\Sites\Paramsites\Jag & Ken\Property\bin\Cls_Property.pdb
+C:\Sites\Paramsites\Jag & Ken\Property\obj\Debug\Property.csprojResolveAssemblyReference.cache
+C:\Sites\Paramsites\Jag & Ken\Property\obj\Debug\Property.dll
+C:\Sites\Paramsites\Jag & Ken\Property\obj\Debug\Property.pdb

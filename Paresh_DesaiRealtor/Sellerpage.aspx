@@ -60,8 +60,8 @@ Please contact us for more details.</span>
                                     <asp:TextBox ID="PhoneNumber" CssClass="CTextBox" PlaceHolder="Cell Phone" runat="server" MaxLength="20"></asp:TextBox>
                                 </div>
                                    <div class="frm_middle"><span class="seller_privacy">We respect your privacy, we will never sell or share your information with anyone.
-Dev Shah, Broker, HomeLife/Miracle Realty Ltd., Brokerage
-Direct: 416.409.9090 <br />
+Jag & Ken, Broker, Royal Canadian Realty, Brokerage
+Direct: 647-618-0365 ,  647-773-5733 <br />
 <a href="PrivacyPolicy.aspx">Privacy Policy</a> 	 |  <a href="Terms.aspx">Terms of Use</a></span>
                                        </div>
                                 <div class="login_input_new_1">

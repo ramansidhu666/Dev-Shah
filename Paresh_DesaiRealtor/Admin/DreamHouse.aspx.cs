@@ -217,7 +217,7 @@ namespace Property.Admin
                 EncoderParameter myEncoderParameter = new EncoderParameter(myEncoder, 50L);
                 myEncoderParameters.Param[0] = myEncoderParameter;
 
-                bmp1.Save(@"C:\\sites\\Dev Shah\\Paresh_DesaiRealtor\\Thumbnails_Pre_Construction\\" + destFileName, jpgEncoder, myEncoderParameters);
+                bmp1.Save(@"C:\\sites\\Jag & Ken\\Paresh_DesaiRealtor\\Thumbnails_Pre_Construction\\" + destFileName, jpgEncoder, myEncoderParameters);
 
                 //myEncoderParameter = new EncoderParameter(myEncoder, 100L);
                 //myEncoderParameters.Param[0] = myEncoderParameter;

@@ -115,8 +115,8 @@
                             <div class="frm_middle">
                             <span>
                                We respect your privacy, we will never sell or share your information with anyone.
-Dev Shah, Broker, HomeLife/Miracle Realty Ltd., Brokerage
-Direct: 416.409.9090
+Jag & Ken, Broker, Royal Canadian Realty, Brokerage
+Direct: 647-618-0365 ,  647-773-5733
                                 <br />
                              <a href="PrivacyPolicy.aspx">Privacy Policy</a> 	 |  <a href="Terms.aspx">Terms of Use</a></span>
                                 </div>

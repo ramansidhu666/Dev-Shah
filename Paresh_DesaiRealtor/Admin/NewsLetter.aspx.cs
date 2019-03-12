@@ -296,13 +296,13 @@ namespace Property.Admin
 
             if(model.Logopath==null || model.Logopath == "")
             {
-                model.Logopath = "http://aggarwalrealty.ca//images/logo.png";
+                model.Logopath = "http://jagkenhomes.com//images/logo.png";
             }
            
 
             if (model.PropertyPhoto  == null || model.PropertyPhoto == "")
             {
-                model.PropertyPhoto = "http://aggarwalrealty.ca//images/img1.png";
+                model.PropertyPhoto = "http://jagkenhomes.com//images/img1.png";
             }
 
             string Status = "";
@@ -526,9 +526,9 @@ namespace Property.Admin
             }
             //else
             //{
-            //    Model.Logopath = "..http://aggarwalrealty.ca//images/MyLogodd%20-%20Copy.png";
+            //    Model.Logopath = "..http://jagkenhomes.com//images/MyLogodd%20-%20Copy.png";
             //}
-            Model.AdminPhoto = "http://aggarwalrealty.ca//images/ajay_shah.jpg";
+            Model.AdminPhoto = "http://jagkenhomes.com//images/ajay_shah.jpg";
 
 
 

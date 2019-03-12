@@ -517,15 +517,6 @@ namespace Property.Controls {
         protected global::System.Web.UI.WebControls.Label lblBalcony;
         
         /// <summary>
-        /// lblname control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblname;
-        
-        /// <summary>
         /// lblemail control.
         /// </summary>
         /// <remarks>

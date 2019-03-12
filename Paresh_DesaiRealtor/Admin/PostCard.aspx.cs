@@ -490,10 +490,10 @@ namespace Property.Admin
             }
             else
             {
-                Model.PropertyPhoto = "http://realtordevshah.com//images/open_house_img.jpg";
+                Model.PropertyPhoto = "http://jagkenhomes.com//images/open_house_img.jpg";
             }
 
-            Model.AdminPhoto = "..http://realtordevshah.com//images/client_img.jpg";
+            Model.AdminPhoto = "..http://jagkenhomes.com//images/client_img.jpg";
             return Model;
         }
         public PostCardModel FeaturedPostcardUploadFile(PostCardModel Model)
@@ -520,7 +520,7 @@ namespace Property.Admin
             }
             else
             {
-                Model.First_feature_Image = "http://realtordevshah.com//images/open_house_img.jpg";
+                Model.First_feature_Image = "http://jagkenhomes.com//images/open_house_img.jpg";
             }
 
             //Second Image
@@ -545,7 +545,7 @@ namespace Property.Admin
             }
             else
             {
-                Model.secd_feature_Image = "http://realtordevshah.com//images/open_house_img.jpg";
+                Model.secd_feature_Image = "http://jagkenhomes.com//images/open_house_img.jpg";
             }
 
 
@@ -571,7 +571,7 @@ namespace Property.Admin
             }
             else
             {
-                Model.thrld_feature_Image = "http://realtordevshah.com//images/open_house_img.jpg";
+                Model.thrld_feature_Image = "http://jagkenhomes.com//images/open_house_img.jpg";
             }
 
 
@@ -598,7 +598,7 @@ namespace Property.Admin
             }
             else
             {
-                Model.forth_feature_Image = "http://realtordevshah.com//images/open_house_img.jpg";
+                Model.forth_feature_Image = "http://jagkenhomes.com//images/open_house_img.jpg";
             }
 
             //Fifth Image
@@ -623,10 +623,10 @@ namespace Property.Admin
             }
             else
             {
-                Model.fifth_feature_Image = "http://realtordevshah.com//images/open_house_img.jpg";
+                Model.fifth_feature_Image = "http://jagkenhomes.com//images/open_house_img.jpg";
             }
 
-            Model.AdminPhoto = "..http://realtordevshah.com//images/client_img.jpg";
+            Model.AdminPhoto = "..http://jagkenhomes.com//images/client_img.jpg";
             return Model;
         }
         public PostCardModel Secnd_FeaturedPostcardUploadFile(PostCardModel Model)
@@ -653,7 +653,7 @@ namespace Property.Admin
             }
             else
             {
-                Model.ftr_2nd_1stimg = "http://realtordevshah.com//images/open_house_img.jpg";
+                Model.ftr_2nd_1stimg = "http://jagkenhomes.com//images/open_house_img.jpg";
             }
 
             //Second Image
@@ -678,7 +678,7 @@ namespace Property.Admin
             }
             else
             {
-                Model.ftr_2nd_2ndimg = "http://realtordevshah.com//images/open_house_img.jpg";
+                Model.ftr_2nd_2ndimg = "http://jagkenhomes.com//images/open_house_img.jpg";
             }
 
 
@@ -704,7 +704,7 @@ namespace Property.Admin
             }
             else
             {
-                Model.ftr_2nd_3rdimg = "http://realtordevshah.com//images/open_house_img.jpg";
+                Model.ftr_2nd_3rdimg = "http://jagkenhomes.com//images/open_house_img.jpg";
             }
 
 
@@ -731,7 +731,7 @@ namespace Property.Admin
             }
             else
             {
-                Model.ftr_2nd_4thimg = "http://realtordevshah.com//images/open_house_img.jpg";
+                Model.ftr_2nd_4thimg = "http://jagkenhomes.com//images/open_house_img.jpg";
             }
 
             //Fifth Image
@@ -756,7 +756,7 @@ namespace Property.Admin
             }
             else
             {
-                Model.ftr_2nd_5thimg = "http://realtordevshah.com//images/open_house_img.jpg";
+                Model.ftr_2nd_5thimg = "http://jagkenhomes.com//images/open_house_img.jpg";
             }
 
 
@@ -782,7 +782,7 @@ namespace Property.Admin
             }
             else
             {
-                Model.ftr_2nd_6thimg = "http://realtordevshah.com//images/open_house_img.jpg";
+                Model.ftr_2nd_6thimg = "http://jagkenhomes.com//images/open_house_img.jpg";
             }
 
             //Fifth Image
@@ -807,9 +807,9 @@ namespace Property.Admin
             }
             else
             {
-                Model.ftr_2nd_7thimg = "http://realtordevshah.com//images/open_house_img.jpg";
+                Model.ftr_2nd_7thimg = "http://jagkenhomes.com//images/open_house_img.jpg";
             }
-            Model.AdminPhoto = "http://realtordevshah.com//images/ajay_shah.jpg";
+            Model.AdminPhoto = "http://jagkenhomes.com//images/ajay_shah.jpg";
             return Model;
         }
         public PostCardModel jstsold_PostcardUploadFile(PostCardModel Model)
@@ -836,7 +836,7 @@ namespace Property.Admin
             }
             else
             {
-                Model.jsthold_1stimg = "http://realtordevshah.com//images/open_house_img.jpg";
+                Model.jsthold_1stimg = "http://jagkenhomes.com//images/open_house_img.jpg";
             }
 
             //Second Image
@@ -861,7 +861,7 @@ namespace Property.Admin
             }
             else
             {
-                Model.jsthold_2ndimg = "http://realtordevshah.com//images/open_house_img.jpg";
+                Model.jsthold_2ndimg = "http://jagkenhomes.com//images/open_house_img.jpg";
             }
 
 
@@ -887,7 +887,7 @@ namespace Property.Admin
             }
             else
             {
-                Model.jsthold_3rdimg = "http://realtordevshah.com//images/open_house_img.jpg";
+                Model.jsthold_3rdimg = "http://jagkenhomes.com//images/open_house_img.jpg";
             }
 
 
@@ -914,7 +914,7 @@ namespace Property.Admin
             }
             else
             {
-                Model.jsthold_4thimg = "http://realtordevshah.com//images/open_house_img.jpg";
+                Model.jsthold_4thimg = "http://jagkenhomes.com//images/open_house_img.jpg";
             }
 
             //Fifth Image
@@ -939,7 +939,7 @@ namespace Property.Admin
             }
             else
             {
-                Model.jsthold_5thimg = "http://realtordevshah.com//images/open_house_img.jpg";
+                Model.jsthold_5thimg = "http://jagkenhomes.com//images/open_house_img.jpg";
             }
 
 
@@ -965,7 +965,7 @@ namespace Property.Admin
             }
             else
             {
-                Model.jsthold_6thimg = "http://realtordevshah.com//images/open_house_img.jpg";
+                Model.jsthold_6thimg = "http://jagkenhomes.com//images/open_house_img.jpg";
             }
 
             //Fifth Image
@@ -990,9 +990,9 @@ namespace Property.Admin
             }
             else
             {
-                Model.jsthold_7thimg = "http://realtordevshah.com//images/open_house_img.jpg";
+                Model.jsthold_7thimg = "http://jagkenhomes.com//images/open_house_img.jpg";
             }
-            Model.AdminPhoto = "http://realtordevshah.com//images/ajay_shah.jpg";
+            Model.AdminPhoto = "http://jagkenhomes.com//images/ajay_shah.jpg";
             return Model;
         }
         //End

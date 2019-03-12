@@ -16,7 +16,6 @@
     .main_sct_bg {
         float: left;
         width: 100%;
-        top: 673px!important
     }
     .main_sction {
         float: left;
@@ -25,6 +24,7 @@
         top: 0;
         width: 100%!important
     }
+
 }
 
 @media screen and (max-width:736px) {
@@ -39,6 +39,74 @@
         padding: 0 0 23px;
         width: 28%
     }
+		.newsltr_form {
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+    padding: 12px;
+    height: auto !important;
+	float:left;
+}
+.newsltr_content {
+    background-color: rgba(23, 184, 242, .8);
+    text-align: left;
+    padding: 30px;
+    width: 100% !important;
+    float: left;
+    height: auto !important;
+    text-align: center;
+}
+.newsltr_content h2 {
+    font-family: montserratsemi_bold;
+    font-weight: 700;
+    font-size: 28px !important;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 7px 0 !important;
+    float: left;
+    width: 100%;
+}
+.newsltr_content p {
+    color: #fff;
+    font-size: 20px !important;
+    margin: 0px;
+    float: left;
+    font-family: latoregular;
+    width: 100%;
+}
+.inputBox .input {
+    position: relative;
+    width: 100%;
+    height: 40px !important;
+    background: transparent;
+    border: none;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+    outline: none;
+    font-family: 'Avenir Next LT Pro';
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0,0,0,.5);
+}
+
+.button.newsltr_btn {
+    float: left;
+    width: 100% !important;
+    font-family: 'Avenir Next LT Pro';
+    height: 40px !important;
+    margin: 10px 0;
+    color: white;
+    background: #17b8f2;
+    text-transform: uppercase;
+}
+	.newsletter_bg {
+    float: left;
+    padding: 7px !important;
+    background: url('../images/reportBg.jpg') no-repeat;
+    background-size: auto;
+    background-size: cover;
+    width: 100%;
+}
     .count_date {
         float: left;
         margin: 12px 0!important;
@@ -134,10 +202,7 @@
     }
     .main_sct_bg {
         float: left;
-        margin: 8px 0 0!important;
-        padding-top: 10px;
         width: 100%;
-        z-index: 999999
     }
     .toggleMenu {
         background: url(../images/menu-icon.png) no-repeat rgba(0, 0, 0, 0);
@@ -178,7 +243,8 @@
     .header_detail {
         float: left;
         text-align: center;
-        width: 100%
+        width: 100%;
+		display:none;
     }
     .proprty_price {
         border-right: medium none;
@@ -216,9 +282,8 @@
         width: 45%!important
     }
     .top_menu_bg {
-        background: #fc2928;
+        background: #1669c0;
         float: left;
-        height: 52px!important;
         width: 100%;
         margin-top: 4px
     }
@@ -313,8 +378,14 @@
         float: left;
         text-align: center;
         width: 100%;
-        display: none
+		margin:0px !important;
     }
+	.menu_section2 {
+    float: right;
+    position: absolute;
+    z-index: 99;
+    right: 0px;
+}
 }
 
 @media screen and (max-width:640px) {
@@ -458,10 +529,7 @@
         float: left;
         width: 100%!important
     }
-    .box_sct_bg {
-        margin: 30px 0 2px!important;
-        text-align: center
-    }
+ 
     .nav>li,
     .video_sction {
         width: 100%;
@@ -480,10 +548,9 @@
     }
     .main_sction {
         float: left;
-        position: relative;
         top: 0!important;
-        width: 100%!important;
-        left: 0!important
+        width: 100%;
+		margin:0px;
     }
     .header_details h3 {
         color: #fff;
@@ -523,17 +590,17 @@
     }
     .menu_section,
     .top_menu_bg {
-        background: #22614b;
+        background: #1669c0;
         float: left
     }
     .menu_section {
-        position: absolute;
+        position: relative;
         width: 95%!important;
         z-index: 99;
     }
     .top_menu_bg {
-        height: 52px!important;
         width: 100%;
+		padding:2px 0 !important;
     }
     .property-search-container_new {
         float: left;
@@ -611,7 +678,7 @@
         background: url(../images/menu-icon.png) no-repeat rgba(0, 0, 0, 0);
         color: #f0b310;
         display: none;
-        margin: 5px 0 0 8px!important;
+        margin: 8px 0 0 1px !important;
         padding: 16px 30px
     }
     #landCalcBox {
@@ -748,7 +815,7 @@
     }
     .fuuter_bg {
         float: left;
-        height: 405px;
+        height: 130px;
         width: 100%
     }
     .logo {
@@ -1019,14 +1086,10 @@
     }
     .main_sct_bg {
         float: left;
-        position: relative!important;
-        top: -25px!important;
         width: 100%;
-        margin: 0!important
     }
     .box_sct_bg {
         float: left;
-        margin: 44px 0 2px!important;
         text-align: center;
         width: 100%!important
     }
@@ -1095,16 +1158,15 @@
     }
     .menu_section,
     .top_menu_bg {
-        background: #22614b;
+        background: #1669c0;
         float: left
     }
     .menu_section {
-        position: absolute;
+        position: relative;
         width: 95%!important;
         z-index: 99;
     }
-    .top_menu_bg {
-        height: 52px!important;
+    .top_menu_bg { 
         width: 100%;
     }
     .property-search-container_new {
@@ -1507,9 +1569,25 @@
         text-decoration: none;
         font-size: 22px!important
     }
-    .Design_and_developed {
-        margin: 16px 0 0!important
-    }
+  .Design_and_developed p {
+    float: left;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    color: #8a2a0e;
+    font-size: 12px !important;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+.newsltr_content p {
+    color: #fff;
+    font-size: 16px !important;
+    margin: 0px;
+    float: left;
+    font-family: latoregular;
+    width: 100%;
+}
+
     .header_detail1 {
         float: left!important;
         text-align: center!important;
@@ -1523,11 +1601,6 @@
     .header_detail {
         text-align: center;
         width: 100%!important
-    }
-    .main_sct_bg {
-        position: relative!important;
-        top: 0!important;
-        width: 100%
     }
     .roco_pro_info>p {
         color: #fff;
@@ -1612,7 +1685,6 @@
         width: 100%!important
     }
     .box_sct_bg {
-        margin: 20px 0 2px!important;
         text-align: center
     }
     .header_detail1 h5 {
@@ -1779,6 +1851,11 @@
     .footer_social a {
         line-height: 51px
     }
+	.futer_mennu ul li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 24px 0 0 !important;
+}
     .red {
         background-color: #fc2928;
         font-family: CenturyGothic-Regular;
@@ -1822,7 +1899,7 @@
     }
     .menu_section,
     .top_menu_bg {
-        background: #22614b;
+        background: #1669c0;
         float: left
     }
     .Residential_section_bg {
@@ -1836,12 +1913,11 @@
         width: 100%
     }
     .menu_section {
-        position: absolute;
+        position: relative;
         width: 95%!important;
         z-index: 99;
     }
     .top_menu_bg {
-        height: 52px!important;
         width: 100%;
         margin-top: 4px
     }
@@ -2317,12 +2393,7 @@
         width: 100%;
         float: left
     }
-    .main_sct_bg {
-        position: relative!important;
-        top: -15px!important;
-        z-index: 999999;
-        margin: 0!important
-    }
+  
     .nav>li {
         background: url(../images/menu-strip.png) 10px 14px no-repeat rgba(0, 0, 0, 0)
     }
@@ -2372,7 +2443,7 @@
     }
     .menu_section,
     .top_menu_bg {
-        background: #22614b;
+        background: #1669c0;
         float: left
     }
     .box_sct_bg3 {
@@ -2381,12 +2452,11 @@
         width: 100%!important
     }
     .menu_section {
-        position: absolute;
+        position: relative;
         width: 95%!important;
         z-index: 99;
     }
     .top_menu_bg {
-        height: 52px!important;
         width: 100%;
     }
     .property-search-container_new {

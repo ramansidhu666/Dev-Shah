@@ -10,7 +10,7 @@ a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .full
 /*----*****---- << Background Color >> ----*****----*/
 
 .border-title span, .dt-sc-team .dt-sc-social-icons li a:after, .dt-sc-bar, .ajax-controls .ajax-close:hover, .portfolio .fig-overlay a:after, .dt-sc-contact-info span, .social-icons li a:after, #footer .copyright, #searchform input[type="submit"], .dt-sc-ico-content.type2 .icon span, .dt-sc-ico-content.type7 .icon, h5.dt-sc-toggle.active:before, h5.dt-sc-toggle-accordion.active:before, .dt-sc-callout-box.type4, .dt-sc-titled-box h6.dt-sc-titled-box-title, .dt-sc-pr-tb-col.selected .dt-sc-tb-header .dt-sc-price, .dt-sc-pr-tb-col.selected .dt-sc-buy-now .dt-sc-button:after, th, .dt-sc-ico-content.type3 .icon:after, .dt-sc-ico-content.type5 .icon, .dt-sc-ico-content.type9 .icon, .dt-sc-ico-content.type8:hover .icon, .dt-sc-ico-content.type3 .icon, .dt-sc-callout-box.type1 .icon, .pagination ul li a:hover, .pagination .next-post a:hover, .pagination .prev-post a:hover, .pagination ul li.active-page, .property-pagination a:hover, .property-pagination .current, .dt-sc-sorting-container a:after, .dt-sc-sorting-container a.active-sort, ul.commentlist li .reply a.comment-reply-link:after, .dt-sc-callout-box.type5 .icon, .dt-sc-callout-box.type2:hover .icon, .dt-sc-callout-box.type3:hover .icon, .dt-sc-callout-box.type1 .dt-sc-button, .dt-sc-callout-box.type5 .dt-sc-button, .bx-controls a.bx-prev:hover, .bx-controls a.bx-next:hover, .widget .tagcloud a:hover, .widget.flickrbox .flickr-widget div, .sticky .featured-post, .featured-post, .mean-container a.meanmenu-reveal, .mean-container .mean-nav, .page-link span, ul.side-nav li a:hover:before, ul.side-nav > li.current_page_item > a:before, ul.side-nav > li > ul > li.current_page_item > a:before, ul.side-nav > li > ul > li > ul > li.current_page_item > a:before, ul.dt-sc-tabs-frame li a.current, .dt-sc-services:hover, .entry-meta .date .day, .property-thumb-meta .property-price, #footer input[type="submit"]:hover, #footer .dt-sc-button:hover, #footer .widget.widget_search #searchform input[type="submit"], .dt-sc-agent-contact, .add-property-form h2, .grey-box-form .dt-sc-button.filled, .single-property-info li.price, .property-item .property-thumb .property-overlay a span, ul.dt-sc-tabs-vertical-frame > li > a.current, .dt-sc-pr-tb-col.selected .dt-sc-buy-now .dt-sc-button:hover, #lang_sel ul ul *:hover > a, .widget .recent-property-widget ul li .thumb, .top-map-info-window .thumb span, .property-view-type a:hover, .property-view-type a.active, .property-slider-buttons .property-slider-price {
-    background-color: #22614b;
+    background-color: #1669c0;
 }
 
 /*----*****---- << Secondary Background Color >> ----*****----*/
@@ -18,6 +18,7 @@ a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .full
     input[type="submit"], button, input[type="button"], .widget.widget_search #searchform input[type="submit"], .grey-box-form .dt-sc-button.filled:hover {
         background: #fc2928 none repeat scroll 0 0;
         padding: 8px;
+		 font-family: 'Avenir Next LT Pro';
         width: auto !important;
     }
 	

@@ -1036,11 +1036,11 @@ function PostCard_Data() {
                             <div style="float: left; width: 60%; text-align: center; margin: 8px 0;">
                                 <div style="float: left; width: 100%; text-align: center;">
                                     <img src="/images/client_img.png" alt="" title="" style="width: 120px; height: 120px; border-radius: 66px; border: 2px solid white; margin: 3px 0;" />
-                                    <h2 style="float: left; margin: 6px 0; text-align: center; width: 100%; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: bold;">Dev Shah</h2>
-                    <p style="float: left; text-align: center; margin: 2px 0; width: 100%; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 16px;">P: 647-641-7260</p>
-                    <p style="float: left; text-align: center; width: 100%; margin: 2px 0; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 16px;">devshah.realtor@gmail.com | www.realtordevshah.com/</p>
-                    <p style="float: left; text-align: center; width: 100%; color: white; margin: 2px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px;">HomeLife/Miracle Realty Ltd., Brokerage*</p>
-                    <p style="float: left; text-align: center; width: 100%; color: white; margin: 2px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px;">821 Bovaird Dr unit 31, Brampton, L6X0T9</p>
+                                    <h2 style="float: left; margin: 6px 0; text-align: center; width: 100%; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: bold;">Jag & Ken</h2>
+                    <p style="float: left; text-align: center; margin: 2px 0; width: 100%; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 16px;">P: 647-618-0365 ,  647-773-5733</p>
+                    <p style="float: left; text-align: center; width: 100%; margin: 2px 0; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 16px;">jagkenhomes@gmail.com | www.jagkenhomes.com/</p>
+                    <p style="float: left; text-align: center; width: 100%; color: white; margin: 2px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px;">Royal Canadian Realty, Brokerage*</p>
+                    <p style="float: left; text-align: center; width: 100%; color: white; margin: 2px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px;">Unit 3-2896 Slough St , Mississauga, Ontario, L4T 1G3</p>
                                 </div>
                             </div>
                             <div style="float: left; width: 100%; text-align: center;">
@@ -1082,10 +1082,10 @@ function PostCard_Data() {
                                 </div>
                                 <div style="float: left; width: 65%;">
                                     <div style="float: left; background-color: #e8eaec; border-radius: 12px; padding: 12px;">
-                                        <h2 style="float: left; width: 100%; color: #1c1c1c; font-size: 28px; font-weight: bold; font-family: 'Times New Roman', Times, serif; font-style: italic; margin: 6px 0;">Dev Shah</h2>
-                                        <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Call: 647-641-7260</p>
-                                        <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Email: devshah.realtor@gmail.com</p>
-                                        <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Website: www.realtordevshah.com/</p>
+                                        <h2 style="float: left; width: 100%; color: #1c1c1c; font-size: 28px; font-weight: bold; font-family: 'Times New Roman', Times, serif; font-style: italic; margin: 6px 0;">Jag & Ken</h2>
+                                        <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Call: 647-618-0365 ,  647-773-5733</p>
+                                        <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Email: jagkenhomes@gmail.com</p>
+                                        <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Website: www.jagkenhomes.com/</p>
                                         <div style="float: left; width: 97%; padding: 8px; margin: 6px 0;">
                                             <img src="../PostCardImages/feature_futer_logo.png" alt="" title="" />
                                         </div>
@@ -1134,8 +1134,8 @@ function PostCard_Data() {
                                 </asp:TextBox>
                             </div>
                             <div style="float: left; width: 100%; margin: 8px 0; text-align: center; background-color: #101010; padding: 12px 0;">
-                                <h2 style="float: left; width: 100%; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 18px; margin: 4px 0; font-weight: bold;">Dev Shah (Broker)</h2>
-                                <p style="float: left; width: 100%; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 18px; margin: 2px 0;">HomeLife/Miracle Realty Ltd., Brokerage</p>
+                                <h2 style="float: left; width: 100%; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 18px; margin: 4px 0; font-weight: bold;">Jag & Ken (Sales Representative)</h2>
+                                <p style="float: left; width: 100%; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 18px; margin: 2px 0;">Royal Canadian Realty, Brokerage</p>
                             </div>
                         </div>
                     </div>
@@ -1154,7 +1154,7 @@ function PostCard_Data() {
                             </div>
                             <div style="float: left; width: 100%;">
                                 <div style="float: left; width: 50%;">
-                                    <img src="../PostCardImages/for_sale_img2.png" alt="" title="" style="width: 30%;" />
+                                   
                                 </div>
                                 <div style="float: right; width: 50%; margin: 8px 0;">
                                     <asp:TextBox ID="ftr_2nd_2ndcntnt" MaxLength='30' onkeyDown="checkTextAreaMaxLength(this,event,'30');" Style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; text-align: right; font-style: italic; border: none; font-size: 20px; font-weight: bold; color: black;" runat="server" PlaceHolder="text here..." class="span8">4+1 Bedrooms, 3 Washrooms</asp:TextBox>
@@ -1177,10 +1177,10 @@ function PostCard_Data() {
                                     </div>
                                     <div style="float: left; width: 65%;">
                                         <div style="float: left; background-color: #e8eaec; border-radius: 12px; padding: 6px;">
-                                            <h2 style="float: left; width: 100%; color: #1c1c1c; font-size: 28px; font-weight: bold; font-family: 'Times New Roman', Times, serif; font-style: italic; margin: 6px 0;">Dev Shah</h2>
-                                            <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Call: 647-641-7260</p>
-                                            <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Email: devshah.realtor@gmail.com</p>
-                                            <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Website: www.realtordevshah.com/</p>
+                                            <h2 style="float: left; width: 100%; color: #1c1c1c; font-size: 28px; font-weight: bold; font-family: 'Times New Roman', Times, serif; font-style: italic; margin: 6px 0;">Jag & Ken</h2>
+                                            <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Call: 647-618-0365 ,  647-773-5733</p>
+                                            <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Email: jagkenhomes@gmail.com</p>
+                                            <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Website: www.jagkenhomes.com/</p>
                                             <div style="float: left; width: 97%; padding: 8px; margin: 6px 0;">
                                                 <img src="/PostCardImages/feature_futer_logo.png" alt="" title="">
                                             </div>
@@ -1230,8 +1230,8 @@ function PostCard_Data() {
 
 
                             <div style="float: left; width: 100%; margin: 8px 0; text-align: center; background-color: #101010; padding: 12px 0;">
-                                <h2 style="float: left; width: 100%; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 18px; margin: 4px 0; font-weight: bold;">Dev Shah</h2>
-                                <p style="float: left; width: 100%; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 18px; margin: 2px 0;">HomeLife/Miracle Realty Ltd., Brokerage</p>
+                                <h2 style="float: left; width: 100%; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 18px; margin: 4px 0; font-weight: bold;">Jag & Ken</h2>
+                                <p style="float: left; width: 100%; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 18px; margin: 2px 0;">Royal Canadian Realty, Brokerage</p>
                             </div>
                         </div>
                     </div>
@@ -1263,10 +1263,10 @@ function PostCard_Data() {
                                     </div>
                                     <div style="float: left; width: 65%;">
                                         <div style="float: left; padding: 6px;">
-                                            <h2 style="float: left; width: 100%; color: #b80a05; font-size: 28px; font-weight: bold; font-family: 'Times New Roman', Times, serif; font-style: italic; margin: 6px 0; border-bottom: 1px solid;">Dev Shah</h2>
-                                            <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Call: 647-641-7260</p>
-                                            <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Email: devshah.realtor@gmail.com</p>
-                                            <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Website: www.realtordevshah.com/</p>
+                                            <h2 style="float: left; width: 100%; color: #b80a05; font-size: 28px; font-weight: bold; font-family: 'Times New Roman', Times, serif; font-style: italic; margin: 6px 0; border-bottom: 1px solid;">Jag & Ken</h2>
+                                            <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Call: 647-618-0365 ,  647-773-5733</p>
+                                            <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Email: jagkenhomes@gmail.com</p>
+                                            <p style="float: left; width: 100%; color: #222222; font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 18px; margin: 2px 0;">Website: www.jagkenhomes.com/</p>
                                             <div style="float: left; width: 98%; padding: 8px; margin: 6px 0;">
                                                 <img src="../PostCardImages/feature_futer_logo.png" alt="" title="" />
                                             </div>
@@ -1281,7 +1281,7 @@ function PostCard_Data() {
                             <div style="float: left; width: 100%; background-color: white; border: 3px solid #161616;">
                                 <div style="float: left; width: 100%; text-align: center; margin-top: 12px;">
 
-                                    <img src="../PostCardImages/recently_sld_img1.png" alt="" title="" style="margin: 8px 0; width: 55%;" />
+                                    
                                     <img src="../PostCardImages/featurd_border_blck.png" alt="" title="" style="margin: 8px 0; width: 55%;" />
                                 </div>
                                 <div style="float: left; width: 100%; margin: 4px 0;">
@@ -1326,8 +1326,8 @@ function PostCard_Data() {
 
 
                             <div style="float: left; width: 100%; margin: 8px 0; text-align: center; background-color: #101010; padding: 12px 0;">
-                                <h2 style="float: left; width: 100%; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 18px; margin: 4px 0; font-weight: bold;">Dev Shah(Broker)</h2>
-                                <p style="float: left; width: 100%; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 18px; margin: 2px 0;">HomeLife/Miracle Realty Ltd., Brokerage</p>
+                                <h2 style="float: left; width: 100%; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 18px; margin: 4px 0; font-weight: bold;">Jag & Ken(Sales Representative)</h2>
+                                <p style="float: left; width: 100%; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 18px; margin: 2px 0;">Royal Canadian Realty, Brokerage</p>
                             </div>
                         </div>
                     </div>

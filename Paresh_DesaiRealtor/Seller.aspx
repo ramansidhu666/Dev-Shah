@@ -55,7 +55,7 @@
     //document.getElementById('shareBtn').onclick = function () {
     $(document).ready(function () {
         $("#shareBtn").click(function () {           
-            var URL = 'http://realtordevshah.com/Home_Worth.aspx?PageTitle=HomeWorth';
+            var URL = 'http://jagkenhomes.com/Home_Worth.aspx?PageTitle=HomeWorth';
             //alert(window.location.href);
             //var URL = window.location.href;
             FB.ui({

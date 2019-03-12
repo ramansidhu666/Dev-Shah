@@ -122,3 +122,13 @@ C:\sites\Dev Shah\Paresh_DesaiRealtor\bin\Newtonsoft.Json.xml
 C:\sites\Dev Shah\Paresh_DesaiRealtor\obj\Debug\Paresh_DesaiRealtor.csprojResolveAssemblyReference.cache
 C:\sites\Dev Shah\Paresh_DesaiRealtor\obj\Debug\Paresh_DesaiRealtor.dll
 C:\sites\Dev Shah\Paresh_DesaiRealtor\obj\Debug\Paresh_DesaiRealtor.pdb
+C:\sites\Jagken homes\Paresh_DesaiRealtor\bin\Paresh_DesaiRealtor.dll.config
+C:\sites\Jagken homes\Paresh_DesaiRealtor\bin\Paresh_DesaiRealtor.dll
+C:\sites\Jagken homes\Paresh_DesaiRealtor\bin\Paresh_DesaiRealtor.pdb
+C:\sites\Jagken homes\Paresh_DesaiRealtor\bin\Cls_Property.dll
+C:\sites\Jagken homes\Paresh_DesaiRealtor\bin\Newtonsoft.Json.dll
+C:\sites\Jagken homes\Paresh_DesaiRealtor\bin\Cls_Property.pdb
+C:\sites\Jagken homes\Paresh_DesaiRealtor\bin\Newtonsoft.Json.xml
+C:\sites\Jagken homes\Paresh_DesaiRealtor\obj\Debug\Paresh_DesaiRealtor.csprojResolveAssemblyReference.cache
+C:\sites\Jagken homes\Paresh_DesaiRealtor\obj\Debug\Paresh_DesaiRealtor.dll
+C:\sites\Jagken homes\Paresh_DesaiRealtor\obj\Debug\Paresh_DesaiRealtor.pdb

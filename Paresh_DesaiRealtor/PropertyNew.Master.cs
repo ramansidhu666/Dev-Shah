@@ -41,7 +41,7 @@ namespace Property
                 StrMenu.Append("<a class='toggleMenu' href='#'></a>");
                 StrMenu.Append("<ul class='nav'>");
                 StrMenu.Append("<li class='test' style='background:none;'><a href='../Home.aspx' title='Home'>Home</a></li>");
-
+                StrMenu.Append("<li style='background:none;'><a href='#' title='Why Sell with us'>Why Sell with us</a></li>");
                 for (int i = 0; i < dt.Rows.Count; i++)
                 {
                     clsobj.PageID = Convert.ToInt32(dt.Rows[i]["ID"]);
@@ -66,12 +66,9 @@ namespace Property
                     }
                 }
 
-                
-                StrMenu.Append("<li style='background:none;'><a href='home_worth.aspx' title='Home Evaluation'>Free Home Evaluation</a></li>");
-                StrMenu.Append("<li>");
-                StrMenu.Append("<a href='landing_page.aspx' title='Find your Dream Home'>Find your Dream Home</a>");
-                StrMenu.Append("</li>");
-                StrMenu.Append("<li style='background:none;'><a href='Calculators.aspx' title='Calculators'>Calculators</a></li>");
+
+                StrMenu.Append("<li class='test' style='background:none;'><a href='Featured_Properties.aspx' title='Featured Properties'>Featured Properties</a></li>");
+                StrMenu.Append("<li style='background:none;'><a href='View_Testimonials.aspx' title='Testimonials'>Testimonials</a></li>");
                 StrMenu.Append("<li class='test' style='background:none;'><a href='ContactUs.aspx' title='Contact Us'>Contact Us</a></li>");
                 StrMenu.Append("</ul>");
 
@@ -94,10 +91,10 @@ namespace Property
                     lblemailid.Text = Convert.ToString(dt.Rows[0]["Email"]);
                     siteTitle.Text = Convert.ToString(dt.Rows[0]["Title"]);
 
-                    lblphn.Text = Convert.ToString(dt.Rows[0]["Mobile"]);
+                    //lblphn.Text = Convert.ToString(dt.Rows[0]["Mobile"]);
                     //lblmobile.Text = Convert.ToString(dt.Rows[0]["Mobile"]);
                     //lblfax.Text = Convert.ToString(dt.Rows[0]["Fax"]);
-                    lblemail.Text = Convert.ToString(dt.Rows[0]["Email"]);
+                    //lblemail.Text = Convert.ToString(dt.Rows[0]["Email"]);
                     if (dt1.Rows.Count > 0)
                     {
                         //lblBrkrOneName.Text = Convert.ToString(dt1.Rows[0]["FirstName"]) + " " + Convert.ToString(dt1.Rows[0]["LastName"]);

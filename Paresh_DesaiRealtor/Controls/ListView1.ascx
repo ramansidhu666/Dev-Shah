@@ -224,7 +224,7 @@
 <ul>
 <li>Direct: (647) 832-2369</li>
 <li>Office: (416) 747-9777</li>
-<li>Email:  devshah.realtor@gmail.com</li>
+<li>Email:  jagkenhomes@gmail.com</li>
 
 </ul>
  </div>
@@ -244,7 +244,7 @@
   <div class="col-md-5 col-sm-5">
   <div class="property_logo">
   <img src="images/property-logo.png" alt="" title=""/>
-  <h4>HomeLife/Miracle Realty Ltd., Brokerage*
+  <h4>Royal Canadian Realty, Brokerage*
 Independently Owned and Operated</h4>
    </div>
   
@@ -601,9 +601,9 @@ Independently Owned and Operated</h4>
    
    <div class="col-md-4 col-sm-4">
   <div class="footer_menu">
-<p>HomeLife/Miracle Realty Ltd., Brokerage*<br/>
+<p>Royal Canadian Realty, Brokerage*<br/>
 Ontario, Canada<br/>
-Email: devshah.realtor@gmail.com  </p>
+Email: jagkenhomes@gmail.com  </p>
 <h5>Cell: (647) 832-2369</h5>
    </div>
   

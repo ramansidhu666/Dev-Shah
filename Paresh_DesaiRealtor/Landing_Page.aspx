@@ -55,7 +55,7 @@
     //document.getElementById('shareBtn').onclick = function () {
     $(document).ready(function () {
         $("#shareBtn").click(function () {           
-            var URL = 'http://www.realtordevshah.com/landing_page.aspx?PageTitle=LandingPage';
+            var URL = 'http://www.jagkenhomes.com/landing_page.aspx?PageTitle=LandingPage';
             //alert(window.location.href);
             //var URL = window.location.href;
             FB.ui({

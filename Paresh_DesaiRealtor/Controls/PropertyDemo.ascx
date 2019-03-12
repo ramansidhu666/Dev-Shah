@@ -67,7 +67,7 @@
              var qs = getQueryStrings();
              var MLSID = qs["MLSID"];
              var PropertyType = qs["PropertyType"];
-             var URL = 'http://realtordevshah.com//PropertyDetails.aspx?MLSID=' + MLSID + '&PropertyType=' + PropertyType;
+             var URL = 'http://jagkenhomes.com//PropertyDetails.aspx?MLSID=' + MLSID + '&PropertyType=' + PropertyType;
              //alert(window.location.href);
              //var URL = window.location.href;
              FB.ui({
@@ -114,9 +114,7 @@
             <div class="col-md-5 col-sm-5">
                
                 <div class="propert_top_details">
-                    <%--<div style="color: white;">
-                        <button id="btnprint" style="margin-left: -147px;" onclick="PrintDiv()">Print</button>
-                    </div>--%>
+                   
                     <div class="property_top_box_sctn">
                         <a href="../RealEstateNews.aspx"><i class="fa fa-file-o"></i>
                             <h3>News</h3>
@@ -593,8 +591,10 @@
                         </div>
                         <div class="roco_pro_info">
                             <h2>
-                                <asp:Label ID="lblname" runat="server"></asp:Label></h2>
-                            <p>Broker</p>
+                                <%--<asp:Label ID="lblname" runat="server"></asp:Label>--%>
+                                <span>Jag & Ken</span>
+                            </h2>
+                            <p>Sales Representative</p>
                             <asp:Label CssClass="email_profile_r" ID="lblemail" runat="server"></asp:Label>
                             <asp:Label CssClass="email_profile_r" ID="lblmobile" runat="server"></asp:Label>
                         </div>

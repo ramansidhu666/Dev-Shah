@@ -37,7 +37,7 @@
 *Your use of this website and any dispute arising out of such use of the website is subject to the laws of Canada.</p>
                 <h3>Disclaimer</h3>
                 <p>The information contained on this website is based in whole or in part on information that is provided by members of The Canadian Real Estate Association (CREA), who are responsible for its accuracy. CREA reproduces and distributes this information as a service for its members and assumes no responsibility for its accuracy.</p>
-                <p>This website is operated by HomeLife/Miracle Realty Ltd., Brokerage* who is a member of The Canadian Real Estate Association.</p>
+                <p>This website is operated by Royal Canadian Realty, Brokerage* who is a member of The Canadian Real Estate Association.</p>
                 <h3>TREB Terms of Use</h3>
                 <p>All MLS data obtained from this Virtual Office Website ('VOW') is intended only for the your personal, non-commercial use
 You have a bona fide interest in the purchase, sale, or lease of real estate of the type being offered through this VOW
